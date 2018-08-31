@@ -1,0 +1,46 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Launch and login to Telegraph Website",
+        "description": "",
+        "id": "login-to-telegraph-website-and-app;launch-and-login-to-telegraph-website",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "I open the telegraph website",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "I log into the website",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@telegraphweblogin"
+          }
+        ]
+      }
+    ],
+    "name": "Login to Telegraph Website and App",
+    "description": "",
+    "id": "login-to-telegraph-website-and-app",
+    "keyword": "Feature",
+    "uri": "test.feature"
+  }
+]
